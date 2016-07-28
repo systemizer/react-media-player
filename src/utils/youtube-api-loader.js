@@ -19,7 +19,7 @@ export default {
   },
 
   _loadAPI: function () {
-    loadAPI('//youtube.com/player_api')
+    loadAPI('https://youtube.com/player_api')
 
     window.onYouTubeIframeAPIReady = () => {
       this._isLoaded = true
